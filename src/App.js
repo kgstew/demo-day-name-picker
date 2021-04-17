@@ -53,8 +53,8 @@ function App() {
         <div className="date-wrapper">
           Last pressed on {format(lastPressed, "MMM d y 'at' HH:mm")}
         </div>
-        <div className="pairing-wrapper">
-          <div className="pairs-header">
+        <div className="shuffle-container">
+          <div className="pairs-wrapper">
             {pairs.map((pair, index) => (
               <DisplayPair pair={pair} key={`${pair}-${index}`} />
             ))}
