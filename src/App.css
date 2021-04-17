@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.date-wrapper {
+  font-size: 24px;
+}
+
+.pairing-wrapper {
+  margin-top: 16px;
+}
+
+.name-cell {
+  width: 60px;
+  display: inline-block;
+  padding: 8px;
+  outline: 1px solid #fff; /* use instead of border */
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.pair-cell {
+  width: 121px;
+  display: inline-block;
+  padding: 16px;
+  outline: 1px solid #fff; /* use instead of border */
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.shuffle-button-wrapper {
+  margin-top: 16px;
+}
+
+.shuffle-button {
+  font-size: 24px;
+  padding: 16px;
+  border-radius: 5;
+}
